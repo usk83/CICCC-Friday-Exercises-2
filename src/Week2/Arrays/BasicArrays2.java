@@ -5,13 +5,14 @@ import java.util.Random;
 
 public class BasicArrays2 {
   private final static int ARRAY_LENGTH = 10;
+  private final static int MAX_NUMBER = 100;
   private final static Random RAND = new Random();
 
   public static void main(String[] args) {
     int[] arr = new int[ARRAY_LENGTH];
 
     for (int i = 0; i < ARRAY_LENGTH; i++) {
-      arr[i] = RAND.nextInt(100) + 1;
+      arr[i] = RAND.nextInt(MAX_NUMBER) + 1;
     }
 
     for (int i = 0; i < ARRAY_LENGTH; i++) {
