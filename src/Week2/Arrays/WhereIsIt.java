@@ -5,7 +5,7 @@ import java.util.Random;
 import java.util.Scanner;
 
 public class WhereIsIt {
-  private final static int ARRAY_LENGTH= 10;
+  private final static int ARRAY_LENGTH = 10;
   private final static Random RAND = new Random();
   private final static Scanner STDIN_SCANNER = new Scanner(System.in);
   public static final String ANSI_GREEN = "\u001B[32m";
