@@ -47,7 +47,7 @@ public class WhereIsIt {
   private static int askUserInputNumber(String msg) {
     int number = 0;
     boolean succeeded = false;
-    while(!succeeded) {
+    while (!succeeded) {
       System.out.printf("%s: ", msg);
       System.out.print(ANSI_GREEN);
       try {

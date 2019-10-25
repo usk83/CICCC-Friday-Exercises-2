@@ -11,13 +11,13 @@ public class BasicArrayLists2 {
 
   public static void main(String[] args) {
     ArrayList<Integer> arrayList = new ArrayList<>(ARRAY_LENGTH);
-    for(int i = ARRAY_LENGTH; i > 0; i--) {
+    for (int i = ARRAY_LENGTH; i > 0; i--) {
       arrayList.add(RAND.nextInt(MAX_NUMBER) + 1);
     }
     printArrayList(arrayList, "ArrayList");
   }
 
   private static void printArrayList(ArrayList<?> arrayList, String name) {
-    System.out.printf( "%s: %s\n", name, arrayList );
+    System.out.printf("%s: %s\n", name, arrayList);
   }
 }
