@@ -36,6 +36,14 @@ public class WhereIsIt {
     }
   }
 
+  private static void printIntArray(int[] arr, String name) {
+    System.out.printf("%s:", name);
+    for (int num: arr) {
+      System.out.printf(" %d", num);
+    }
+    System.out.println();
+  }
+
   private static int askUserInputNumber(String msg) {
     int number = 0;
     boolean succeeded = false;
@@ -52,13 +60,5 @@ public class WhereIsIt {
       System.out.print(ANSI_RESET);
     }
     return number;
-  }
-
-  private static void printIntArray(int[] arr, String name) {
-    System.out.printf("%s:", name);
-    for (int num: arr) {
-      System.out.printf(" %d", num);
-    }
-    System.out.println();
   }
 }
